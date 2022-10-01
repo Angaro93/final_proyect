@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1214,544px;
+    margin: auto;
+}
+
+/*Emcabezado*/
+
+.contenedor{
+    display: flex;
+    height: 99px;
+    background-color: #E0C33D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logoblopez{
+    width: 217px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+    color: grey;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.banner1 {
+    background-color: #E0C33D;
+}
+
+.suscribete {
+    background-color: #E4508A;
+    color: white;
+}
+
+.footer {
+    background-color: #E4508A;
+    color: white;
+}
+.menu2 a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+    color: white;
+}
+
+.menu2 a:hover{
+    color: #E0C33D;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ejecutiva3 {
+    width: 565px;
+}
+
+.ejecutiva2{
+    width: 455px;
+}
+
+.ejecutiva1{
+    width: 455px;
+}
