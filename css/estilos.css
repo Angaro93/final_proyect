@@ -2,144 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+    background-color: white;
 }
-
-.contenedor {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/*Emcabezado*/
-
-header{
-    width: 100%;
-    height: 100px;
-    background-color: #E0C33D;
-    padding-top: 27px;
-}
-.logo img{
-    width: 217px;
-    display: block;
-    margin: auto;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    padding-right: 92px;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-}
-
-.menu a{
-    text-decoration: none;
-    color: #616060;
-}
-
-.menu a:hover{
-    color: white;
-    font-weight: bold;
-}
-
-/*Fin Emcabezado*/
-
 /*Banner 1*/
 
-.banner1{
-    width: 100%;
-    height: 600px;
-    background-image: url(../img/image/pexels-pixabay-35857.jpg)
-}
-
-.banner1{
-    background-position: center;
-    background-size: cover;
-}
-
-.banner1 > .bank{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(224, 195, 61, 0.5);
-}
-
-.banner1 > .ejecutiva3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.banner1 h1{
-    font-size: 53px;
-}
-
-.ejecutiva3{
-    width: 480px;
-    max-width: 480px;
-}
-
-.ejecutiva3 img{
-    width: 100%;
-}
-
-.conte1{
-    text-align: center;
-    padding: 80px 0px;
-    color: white;
-    max-width: 480px;
-}
-.conte1 >h1{
-    text-shadow: 0px 3px 0px black;
-}
-
-/*Fin Banner 1*/
-
-/*Banner 2*/
-
-.banner2 {
-    width: 100%;
-    height: 600px;
-    background-color: #E4508A;
-}
-
-.conte2{
-    text-align: center;
-    padding: 80px 0px;
-    color: white;
-    max-width: 480px;
-}
-
-.fotoportada{
-    width: 480px;
-    max-width: 480px;
-    
-}
-
-.fotoportada img{
-    width: 614px;
-    height: 600px;
-}
-
 /*Fin Banner 2*/
-
-.sobremi {
-    width: 100%;
-    height: 600px;
-    background-color: #E0C33D;
-}
 
 /*Sobre Mí*/
 
