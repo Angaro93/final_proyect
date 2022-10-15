@@ -12,12 +12,16 @@
 
 .top-footer {
     width: 100%;
-    height: 100px;
+    height: 250px;
     background-color: #E0C33D;
 }
 
+.logo2 {
+    padding: 42px 0;
+}
+
 .logo2 img {
-    width: 217px;
+    width: 512px;
     display: block;
     margin: auto;
 }
@@ -37,21 +41,28 @@
     font-size: 20px;
 }
 
-.menu2 a {
-    text-decoration: none;
-    color: #616060;
-    font-size: 20px;
-}
-
 .top-footer .menu2 a:hover {
     transform: scale(1.1);
     color: white;
 }
 
-.top-footer.logo2 img{
-    transition: all 0.3s;
+.botton-fotter {
+    text-align: center;
+    color: white;
+    background-color: #616060;
 }
 
-.top-footer .logo2 img:hover{
-    transform: scale(1.2);
+.botton-fotter p{
+    font-size: 18px;
+}
+
+.botton-fotter {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.botton-fotter {
+    width: 100%;
+    height: 56px;
 }

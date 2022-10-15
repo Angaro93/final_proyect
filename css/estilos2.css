@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,16 +16,93 @@ body{
     margin: auto;
 }
 
-.error_404 > h1{
+.ohoh h1:nth-child(1) {
+    color: #E4508A;
+    font-size: 112px;
+    text-align: center;
+}
+
+.ohoh p:nth-child(1) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.ohoh h2:nth-child(1) {
+    font-size: 38px;
+}
+
+.ohoh>h2 {
+    color: #E4508A;
+    text-align: center;
+    padding-right: 150px;
+}
+
+.ohoh>h1 {
+    color: #E4508A;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 170px;
+}
+
+.ohoh>p {
+    color: #616060;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 150px;
+}
+
+.rota-horizontal {
+    transform: scaleX(-1);
+}
+
+.do-oh {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.doh>p {
+    color: #616060;
+    text-align: center;
+}
+
+.doh a:nth-child(1) {
+    text-decoration: none;
+}
+
+.error_404 {
+    padding: 66px 0;
+}
+
+.do-oh {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.doh a:hover {
     color: #E4508A;
 }
 
-.p{
+.do-oh a {
     color: #616060;
 }
 
-.h2{
-    color: #E4508A;
+.error_404 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.error {
+    width: 100%;
+    max-width: 614px;
+}
+
+.error img {
+    width: 100%;
+}
+
+
 
 /*Fin Banner 1*/

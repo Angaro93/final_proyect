@@ -103,13 +103,8 @@
     max-width: 480px;
 }
 
-.logo2 img {
+.logo2 > img {
     width: 234px;
-    padding left: 0px;
-}
-
-.logo2 {
-    padding-bottom: 99px;
 }
 
 @media all and (min-width:769px) {
