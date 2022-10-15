@@ -27,7 +27,7 @@ header {
     margin: auto;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -36,13 +36,13 @@ header {
     margin: auto;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: #616060;
     font-size: 20px;
 }
 
-header .menu a:hover{
+header .menu a:hover {
     transform: scale(1.1);
     color: white;
 }
@@ -53,9 +53,4 @@ header .logo img{
 
 header .logo img:hover{
     transform: scale(1.2);
-}
-
-.menu .a:hover{
-    background: #E4508A;
-    transform: .5s;
 }

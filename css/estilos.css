@@ -9,7 +9,6 @@
 
 .banner1 {
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     color: white;
 }
@@ -21,13 +20,13 @@
     background-size: cover;
 }
 
-.banner1 > .bank {
+.banner1>.bank {
     width: 100%;
     height: 100%;
     background-color: rgba(224, 195, 61, 0.5);
 }
 
-.banner1 > .bank {
+.banner1>.bank {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,12 +34,11 @@
 }
 
 .ejectiva3 {
-    width: 100%;
-    max-width: 480px;
+    width: 80%;
 }
 
 .ejectiva3 img {
-    width: 100%;
+    width: 80%;
 }
 
 .conte1 {
@@ -49,7 +47,6 @@
 }
 
 .conte1 h1 {
-    padding-top: 90px;
     padding-bottom: 35px;
     font-size: 53px;
     text-shadow: 3px 3px 7px black;
@@ -71,7 +68,7 @@
     color: white;
 }
 
-.banner2 > .bank1 {
+.banner2>.bank1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -83,7 +80,7 @@
     max-width: 614px;
 }
 
-.fotoportada img{
+.fotoportada img {
     width: 100%;
 }
 
@@ -106,25 +103,26 @@
     max-width: 480px;
 }
 
-.logo2 img{
+.logo2 img {
     width: 234px;
     padding left: 0px;
 }
 
-.logo2{
+.logo2 {
     padding-bottom: 99px;
 }
 
-@media all and (min-width:769px){
+@media all and (min-width:769px) {
 
-    .fotoportada{
-      margin-right: 30px;
+    .fotoportada {
+        margin-right: 30px;
     }
-    .conte2{
-      padding-left: 30px;
-      text-align: left;
+
+    .conte2 {
+        padding-left: 30px;
+        text-align: left;
     }
-  }
+}
 
 
 /*Sobre Mí*/
@@ -136,18 +134,18 @@
     background-color: #E0C33D;
 }
 
-.sobremi h2{
+.sobremi h2 {
     font-size: 52px;
     color: white;
     text-shadow: 3px 3px 7px white;
 }
 
-.sobremi p{
+.sobremi p {
     color: #616060;
     font-size: 24px;
 }
 
-.sobremi > .sobrmi {
+.sobremi>.sobrmi {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -164,7 +162,7 @@
     max-width: 380px;
 }
 
-.ejectiva1 img{
+.ejectiva1 img {
     width: 100%;
 }
 
@@ -210,3 +208,13 @@
 }
 
 /*Fin Blog*/
+
+/*Ubicación*/
+
+.ubication{
+    width: 100%;
+    height: 740px;
+    margin: auto;
+}
+
+/*Ubicación*/

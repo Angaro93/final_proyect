@@ -10,4 +10,22 @@ body{
 
 /*Banner 1*/
 
+.error_404 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.error_404 > h1{
+    color: #E4508A;
+}
+
+.p{
+    color: #616060;
+}
+
+.h2{
+    color: #E4508A;
+}
+
 /*Fin Banner 1*/
