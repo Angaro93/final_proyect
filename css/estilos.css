@@ -33,12 +33,12 @@
     justify-content: center;
 }
 
-.ejectiva3 {
-    width: 80%;
+.ejecutiva3 {
+    width: 480px;
 }
 
-.ejectiva3 img {
-    width: 80%;
+.ejecutiva3 img {
+    width: 100%;
 }
 
 .conte1 {
@@ -58,7 +58,7 @@
     text-align: left;
 }
 
-/*Fin Banner 2*/
+/*Banner 2*/
 
 .banner2 {
     width: 100%;
@@ -68,7 +68,7 @@
     color: white;
 }
 
-.banner2>.bank1 {
+.bank2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,48 +77,41 @@
 
 .fotoportada {
     width: 100%;
-    max-width: 614px;
+    max-width: 600px;
 }
 
 .fotoportada img {
     width: 100%;
+    padding: 0;
 }
 
 .conte2 h2:nth-child(1) {
-    padding-top: 90px;
-    padding-bottom: 42px;
     font-size: 52px;
     text-shadow: 3px 3px 7px black;
     text-align: left;
 }
 
+.conte2 h2 {
+    padding: 66px;
+    margin: 0;
+
+}
+
 .conte2 p {
     font-size: 24px;
-    text-align: left;
-    padding-bottom: 45px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .conte2 {
-    padding: 98px;
     max-width: 480px;
 }
 
-.logo2 > img {
+.conte2 img {
     width: 234px;
+    display: block;
+    margin: 0px auto;
 }
-
-@media all and (min-width:769px) {
-
-    .fotoportada {
-        margin-right: 30px;
-    }
-
-    .conte2 {
-        padding-left: 30px;
-        text-align: left;
-    }
-}
-
 
 /*Sobre Mí*/
 
@@ -129,18 +122,40 @@
     background-color: #E0C33D;
 }
 
-.sobremi h2 {
+.sobrmi h2 {
+    width: 300px;
     font-size: 52px;
     color: white;
     text-shadow: 3px 3px 7px white;
+    background-color: #E4508A;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
 }
 
-.sobremi p {
-    color: #616060;
+.ejecutiva1 img {
+    padding-top: 60px;
+    max-width: 380px;
+    width: 100%;
+}
+
+.sobrmi {
+    padding-top: 40px;
+}
+
+.sobrmi {
+    width: 600px;
+}
+
+.sobrmi>p {
+    padding-top: 40px;
+    padding-bottom: 42px;
     font-size: 24px;
+    text-align: center;
+    color: #616060;
 }
 
-.sobremi>.sobrmi {
+.sobremi {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -148,36 +163,7 @@
 }
 
 .sobrmi {
-    width: 100%;
-    max-width: 600px;
-}
-
-.ejectiva1 {
-    width: 100%;
-    max-width: 380px;
-}
-
-.ejectiva1 img {
-    width: 100%;
-}
-
-.sobrmi p:nth-child(1) {
-    padding-top: 90px;
-    padding-bottom: 42px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.sobrmi p:nth-child(2) {
-    padding-bottom: 42px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.sobrmi p:nth-child(3) {
-    padding-bottom: 42px;
-    font-size: 24px;
-    text-align: center;
+    padding-right: 100px;
 }
 
 /*Fin Sobre Mí*/
@@ -191,6 +177,41 @@
     background-color: white;
 }
 
+.trabmigo h2 {
+    width: 500px;
+    height: 70px;
+    font-size: 52px;
+    color: #616060;
+    text-shadow: 3px 3px 7px grey;
+    background-color: #E0C33D;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+.trabmigo {
+    padding: 43px;
+}
+
+.tabamigo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ejecutiva2 {
+    padding-top: 60px;
+    max-width: 380px;
+    width: 100%;
+}
+
+.form {
+    padding: 42px;
+    margin: auto;
+    align-items: center;
+}
+
 /*Fin Trabaja Conmigo*/
 
 /*Blog*/
@@ -200,13 +221,183 @@
     max-width: 1200px;
     margin: auto;
     background-color: #E4508A;
+    color: white;
+}
+
+.imgbl1 img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.imgbl2 img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.imgbl3 img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.blogg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogs h2 {
+    padding-top: 38px;
+    margin: auto;
+    text-align: center;
+    font-size: 56px;
+    text-shadow: 3px 3px 7px white;
+}
+
+.blogs h3 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 58px;
+    font-size: 36px;
+}
+
+.blog1 {
+    width: 360px;
+    padding: 0 26px;
+    text-align: center;
+}
+
+.blog2 {
+    width: 360px;
+    padding: 0 26px;
+    text-align: center;
+}
+
+.blog3 {
+    width: 360px;
+    padding: 0 26px;
+    text-align: center;
+}
+
+.blogs {
+    padding-bottom: 30px;
+}
+
+.texbl1>h6 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl1>h4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl1>button {
+    padding-top: 15px;
+    padding-bottom: 4px;
+}
+
+.texbl1>a {
+    text-decoration: none;
+}
+
+.texbl2>h6 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl2>h4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl2>p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl2>a {
+    text-decoration: none;
+}
+
+.texbl3>h6 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl3>h4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl3>p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.texbl3>a {
+    text-decoration: none;
+}
+
+.texbl3 p {
+    width: 174px;
+    height: 50px;
+    background-color: white;
+    color: #E4508A;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.texbl2 p {
+    width: 174px;
+    height: 50px;
+    background-color: white;
+    color: #E4508A;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.texbl1 p {
+    width: 174px;
+    height: 50px;
+    background-color: white;
+    color: #E4508A;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.texbl1 p:hover{
+    color: #616060;
+    background-color: #E0C33D;
+}
+.texbl2 p:hover{
+    color: #616060;
+    background-color: #E0C33D;
+}
+
+.texbl3 p:hover{
+    color: #616060;
+    background-color: #E0C33D;
 }
 
 /*Fin Blog*/
 
 /*Ubicación*/
 
-.ubication{
+.ubication {
     width: 100%;
     height: 740px;
     margin: auto;
