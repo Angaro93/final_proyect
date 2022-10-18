@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,6 +14,124 @@ body{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 
+
+.wkme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.woki {
+    width: 600px;
+    padding-right: 10px;
+}
+
+.video {
+    width: 400px;
+}
+
+.workme h1 {
+    width: 500px;
+    height: 70px;
+    font-size: 52px;
+    color: #616060;
+    text-shadow: 3px 3px 7px grey;
+    background-color: #E0C33D;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+.workme {
+    padding-top: 44px;
+}
+
+.workup {
+    padding-top: 44px;
+}
+
+.workdown {
+    padding-top: 44px;
+}
+
+.workup >h2 {
+    font-size: 48px;
+    color: black;
+}
+
+.workup >p{
+    font-size: 24px;
+    color: #616060;
+}
+
+.workdown >h2 {
+    font-size: 48px;
+    color: black;
+}
+
+.workdown >p{
+    padding-top: 44px;
+    font-size: 24px;
+    color: #616060;
+}
+
+.workup >p{
+    padding-top: 44px;
+    font-size: 24px;
+}
+
+.workdown >h3{
+    padding-top: 44px;
+    font-size: 33px;
+}
+
+video {
+    padding: 44px;
+}
+
+.workdownbtn p {
+    width: 174px;
+    height: 50px;
+    background-color: #E4508A;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+.workupbtn p {
+    width: 174px;
+    height: 50px;
+    background-color: #E4508A;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.workdownbtn a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.workdownbtn p:hover{
+    color: #616060;
+    background-color: #E0C33D;
+}
+
+.workupbtn p:hover{
+    color: #616060;
+    background-color: #E0C33D;
+}
+
+.workupbtn a {
+    text-decoration: none;
+    padding: 10px;
+}
 /*Fin Banner 1*/

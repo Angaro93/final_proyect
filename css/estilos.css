@@ -303,6 +303,7 @@
 
 .texbl1>a {
     text-decoration: none;
+    padding: 10px;
 }
 
 .texbl2>h6 {
@@ -322,6 +323,7 @@
 
 .texbl2>a {
     text-decoration: none;
+    padding: 10px;
 }
 
 .texbl3>h6 {
@@ -341,6 +343,7 @@
 
 .texbl3>a {
     text-decoration: none;
+    padding: 20px;
 }
 
 .texbl3 p {
