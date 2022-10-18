@@ -212,6 +212,53 @@
     align-items: center;
 }
 
+.botntaba p {
+    width: 174px;
+    height: 50px;
+    background-color: #E0C33D;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.botntaba a {
+    text-decoration: none;
+}
+
+.botntaba p:hover {
+    color: #E0C33D;
+    background-color: grey;
+}
+
+.form p {
+    width: 174px;
+    height: 50px;
+    background-color: #E0C33D;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.form p:hover {
+    color: #E0C33D;
+    background-color: grey;
+}
+
+.form h6 {
+    text-align: center;
+    display: flex;
+}
+
 /*Fin Trabaja Conmigo*/
 
 /*Blog*/
@@ -382,16 +429,17 @@
     cursor: pointer;
 }
 
-.texbl1 p:hover{
-    color: #616060;
-    background-color: #E0C33D;
-}
-.texbl2 p:hover{
+.texbl1 p:hover {
     color: #616060;
     background-color: #E0C33D;
 }
 
-.texbl3 p:hover{
+.texbl2 p:hover {
+    color: #616060;
+    background-color: #E0C33D;
+}
+
+.texbl3 p:hover {
     color: #616060;
     background-color: #E0C33D;
 }
