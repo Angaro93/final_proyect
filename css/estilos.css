@@ -175,7 +175,9 @@
     max-width: 1200px;
     margin: auto;
     background-color: white;
+    padding-top: 32px;
 }
+
 
 .trabmigo h2 {
     width: 500px;
@@ -189,37 +191,28 @@
     margin: auto;
 }
 
-.trabmigo {
+.tbamigos {
     padding: 43px;
 }
 
-.tabamigo {
+.trabamigo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.ejecutiva2 {
-    padding-top: 60px;
-    max-width: 380px;
-    width: 100%;
-}
-
-.form {
-    padding: 42px;
-    margin: auto;
-    align-items: center;
+.botntaba{
+    padding: 32px;
 }
 
 .botntaba p {
-    width: 174px;
+    width: 440px;
     height: 50px;
     background-color: #E0C33D;
     color: white;
     border-radius: 24px;
     text-align: center;
-    margin: auto;
     padding: 15px;
     cursor: pointer;
 }
@@ -233,33 +226,143 @@
     background-color: grey;
 }
 
-.form p {
-    width: 174px;
+.ejecutiva2 img {
+    max-width: 360px;
+    width: 100%;
+}
+
+.trabamigo h3 {
+    font-size: 34px;
+    font-style: bold;
+    text-align: center;
+    color: #616060;
+}
+
+.trabamigo th p {
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    color: #616060;
+}
+
+.trabamigo td p {
+    font-size: 18 px;
+    font-style: normal;
+    text-align: center;
+    color: #616060;
+    background-color: #E0C33D;
+    padding: 10px;
+}
+
+.trabamigo table {
+    border: solid 1px rgb(224 195 61);
+}
+
+.botntaba {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trabamigo td{
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.trabamigo th{
+    border-bottom: 1;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+}
+
+/*Fin Trabaja Conmigo*/
+
+/*Formulario*/
+
+.contform .formct {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 50px;
+    margin: auto;
+}
+
+.contform {
+    font-size: 24px;
+}
+
+.contform .formct .form-label {
+    display: block;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.contform {
+    color: #616060;
+}
+
+.form-imput {
+    border: none;
+    outline: none;
+    background: #E0C33D;
+    border-bottom: 2px solid #616060;
+    font-size: 18px;
+    width: 90%;
+    max-width: 1000px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/*Fin Formulario*/
+
+/*Complemento Formulario*/
+
+.botn_2 p {
+    width: 430px;
     height: 50px;
     background-color: #E0C33D;
     color: white;
     border-radius: 24px;
     text-align: center;
     margin: auto;
-    padding: 7px;
+    padding: 15px;
     cursor: pointer;
 }
 
-.form a {
+.botn_2 {
+    padding-top: 32px;
+}
+
+.botn_2 a {
     text-decoration: none;
 }
 
-.form p:hover {
+.botn_2 p:hover {
     color: #E0C33D;
     background-color: grey;
 }
 
-.form h6 {
+.botn_2 h6 {
     text-align: center;
     display: flex;
 }
 
-/*Fin Trabaja Conmigo*/
+.h6txt {
+    text-align: center;
+    font-size: 12px;
+    padding: 32px 0;
+    color: #616060;
+}
+
+.h6txt strong {
+    color: #E0C33D;
+}
+
+/*Complemento Formulario*/
 
 /*Blog*/
 
@@ -267,6 +370,9 @@
     width: 100%;
     max-width: 1200px;
     margin: auto;
+}
+
+.blog {
     background-color: #E4508A;
     color: white;
 }
